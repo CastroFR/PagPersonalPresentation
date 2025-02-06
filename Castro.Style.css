@@ -1,0 +1,69 @@
+    /*<style>*/
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+
+        }
+
+
+        .perfil-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+
+        .datos-personales p {
+            margin: 10px 0;
+            color: #34495e;
+        }
+
+        .gustos-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .gustos-table td, .gustos-table th {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .gustos-table th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        .listas-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .lista {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .lista h3 {
+            margin-top: 0;
+            color: #3498db;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+    /*</style>*/
